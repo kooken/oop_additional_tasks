@@ -15,17 +15,18 @@
 class Number:
 
     def __init__(self, value):
-        ...
+        self.value = value
 
-    def ...(self):
-        ...
+    def get(self):
+        return self.value
 
-    def ...:
-        ...
+    def add(self, number):
+        self.value += number
 
-    def ...:
-        ...
+    def substract(self, any_value):
+        self.value -= any_value
 
+x = Number(7)
 
 # код для проверки 
 n = Number(7)
